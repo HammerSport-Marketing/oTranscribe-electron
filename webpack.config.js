@@ -8,7 +8,7 @@ module.exports = {
     app: ['./src/index.js'] // This is the main file that gets loaded first; the "bootstrap", if you will.
   },
   output: { // Transpiled and bundled output gets put in `build/bundle.js`.
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'electron'),//electron folder
     filename: 'bundle.js'   // Really, you want to upload index.htm and assets/bundle.js
   },
   module: {

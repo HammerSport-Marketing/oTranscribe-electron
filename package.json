@@ -1,8 +1,11 @@
 {
-  "name": "oTranscribe",
+  "name": "oTranscribeElectron",
   "version": "1.1.0",
+  "main": "electron/main.js",
   "scripts": {
-    "postinstall": "cd ./node_modules/jakecache/ && npm install && node ./scripts/build.js && cd ../.."
+    "postinstall": "cd ./node_modules/jakecache/ && npm install && node ./scripts/build.js && cd ../..",
+    "build": "make build_prod",
+    "start": "electron ."
   },
   "devDependencies": {
     "babel-core": "^6.24.1",
