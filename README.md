@@ -1,4 +1,8 @@
-## oTranscribe
+## oTranscribe-electron
+
+Modified version to run inside electron as a desktop app to enable text to audio/video auto alignement to create captions(srt) files.
+
+----
 
 **[oTranscribe](http://oTranscribe.com/)** is a free web app designed to take the pain out of transcribing recorded interviews.
 

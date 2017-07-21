@@ -34,5 +34,5 @@ build_prod:
 	./node_modules/webpack/bin/webpack.js -p
 
 	# cp -r lib/ electron/
-	cp lib/main.js electron/main.js
-	cp lib/renderer.js electron/render.js
+	cp -r lib/main.js electron/main.js
+	cp -r lib/renderer.js electron/render.js
